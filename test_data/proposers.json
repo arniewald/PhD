@@ -1,0 +1,95 @@
+{
+    "small_maximum_dimensionality_individual": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "individual",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 40,
+        "std": 1,
+        "psplit": 0,
+        "pmerge": 0
+    },
+    "small_transdimensionality_individual": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "individual",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 40,
+        "std": 1,
+        "psplit": 0.3333333333333333,
+        "pmerge": 0.3333333333333333
+    },
+    "small_maximum_dimensionality_simultaneous": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "simultaneous",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 40,
+        "std": 1,
+        "psplit": 0,
+        "pmerge": 0
+    },
+    "small_transdimensionality_simultaneous": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "simultaneous",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 40,
+        "std": 1,
+        "psplit": 0.3333333333333333,
+        "pmerge": 0.3333333333333333
+    },
+    "big_maximum_dimensionality_individual": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "individual",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 80,
+        "std": 1,
+        "psplit": 0,
+        "pmerge": 0
+    },
+    "big_transdimensionality_individual": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "individual",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 80,
+        "std": 1,
+        "psplit": 0.3333333333333333,
+        "pmerge": 0.3333333333333333
+    },
+    "big_maximum_dimensionality_simultaneous": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "simultaneous",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 80,
+        "std": 1,
+        "psplit": 0,
+        "pmerge": 0
+    },
+    "big_transdimensionality_simultaneous": {
+        "params": [1,[0],[0.5,0.5]],
+        "proposal_type": "simultaneous",
+        "lnk_sigma": 1e-1,
+        "width_sigma": 0,
+        "dim_min": 1,
+        "dim_max": 80,
+        "std": 1,
+        "psplit": 0.3333333333333333,
+        "pmerge": 0.3333333333333333
+    }
+}
+
+
+
+
+

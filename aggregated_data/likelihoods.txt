@@ -1,0 +1,55 @@
+Only lnk:
+2.6364434119240987
+0.9901547308273168
+2.4216193848229337
+
+Both:
+2.6364434119240987
+18.304442965481254
+18.30009911928528
+
+Both one step:
+2.6364434119240987
+23.186774585534046
+23.18420369473295
+
+Both one step unequal:
+2.6364434119240987
+3.1937882863197293
+4.469275098219027
+
+Both unequal:
+
+MULTIPLE CHAINS
+temperature
+    rjmcmc: 14.757061969782978 %
+    all columns: 23.436265356344748 %
+    both unequal: 22.661450551486606 %
+
+conductivity
+    rjmcmc: 34.9294248874433 %
+    all columns: 58.891191542492216 %
+    both unequal: 41.82597782777551 %
+
+
+rjmcmc 2
+conductivity: 31.08486876171615 %
+temperature: 15.084608540390407 %
+
+all_columns 2
+conductivity: 56.03028719159864 %
+temperature: 22.575297895278364 %
+
+40 INDIVIDUAL
+all columns 
+logconductivity: 22.91216525095226%
+temperature: 32.9985716163058%
+
+40 INDIVIDUAL
+rjmcmc
+logconductivity: 16.592421073709218%
+temperature: 16.74395702557902%
+
+80 INDIVIDUAL
+
+
