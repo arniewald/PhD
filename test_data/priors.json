@@ -1,0 +1,17 @@
+{
+    "small": {
+        "dim_min": 1,
+        "dim_max": 41,
+        "k_min": 1,
+        "k_max": 10000,
+        "precision": 0.025
+    },
+    "big": {
+        "dim_min": 1,
+        "dim_max": 81,
+        "k_min": 1,
+        "k_max": 10000,
+        "precision": 0.0125
+    }
+}
+

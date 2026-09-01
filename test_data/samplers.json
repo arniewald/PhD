@@ -1,0 +1,57 @@
+{
+    "layers_mh_sampler_nox_alternating":
+        {
+            "type": "layersmhsampler",
+            "init_dim": 4,
+            "init_lnks": null, 
+            "init_xs": [0.25,0.25,0.25,0.25]
+        },
+
+    "layers_mh_sampler_nox_symmetric":
+        {
+            "type": "layersmhsampler",
+            "init_dim": 5,
+            "init_lnks": null, 
+            "init_xs": [0.2,0.2,0.2,0.2,0.2]
+        },
+
+    "layers_mh_sampler":
+        {
+            "type": "layersmhsampler",
+            "init_dim": null,
+            "init_lnks": null, 
+            "init_xs": null
+        },
+
+    "layers_rj_sampler":
+        {
+            "type": "layersrjsampler",
+            "init_dim": null,
+            "init_lnks": null, 
+            "init_xs": null
+        },
+
+    "voronoi_non_adaptive":
+        {
+            "type": "voronoisampler",
+            "init_dim": 5,
+            "init_lnks": null, 
+            "init_centers": null
+        },
+    
+    "voronoi_general_adaptive":
+        {
+            "type": "adaptivegeneralvoronoisampler",
+            "init_dim": 5,
+            "init_lnks": null, 
+            "init_centers": null
+        },
+    
+    "voronoi_diagonal_adaptive":
+        {
+            "type": "adaptivediagonalvoronoisampler",
+            "init_dim": 5,
+            "init_lnks": null, 
+            "init_centers": null
+        }
+}

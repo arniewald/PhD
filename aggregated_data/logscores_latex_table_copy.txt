@@ -1,0 +1,17 @@
+\begin{table}[H]
+\caption{Log-scores, relative error and rRMSE of the approximated posteriors in the conductivity and temperature domain for all the inversions performed.}
+\begin{tabular}{|c|c|c|c|ccc|}
+\hline
+\multirow{2}{*}{\textbf{Nº of col.}} & \multirow{2}{*}{\textbf{Method}} & \multirow{2}{*}{\textbf{Proposal}} & $\mathbf{\kappa}$  & \multicolumn{3}{c|}{\textbf{u}}                                                               \\ \cline{4-7} 
+                                        &                                  &                                    & $\mathcal{S}_{\kappa}^{(l)}$ & \multicolumn{1}{c|}{$\mathbf{\varepsilon}$ \textbf{(\%)}} & \multicolumn{1}{c|}{$\mathcal{S}_{u}^{(l)}$} & \textbf{rRMSE} \\ \hline
+40                                      & Maximum dimensionality                      & Simultaneous                       & -184.36                           & \multicolumn{1}{c|}{2.20}                   & \multicolumn{1}{c|}{-208.55}                   &         0.89      \\ \hline
+40                                      & Transdimensionality                           & Simultaneous                       & \multicolumn{1}{c|}{-247.23}                              & \multicolumn{1}{c|}{2.26}                   & \multicolumn{1}{c|}{-208.90}                   &      0.89       \\ \hline
+40                                      & Maximum dimensionality                      & Individual                         & \multicolumn{1}{c|}{-137.67 }                         & \multicolumn{1}{c|}{3.10}                   & \multicolumn{1}{c|}{-215.48}                   &         1.26      \\ \hline
+40                                      & Transdimensionality                           & Individual                         & \multicolumn{1}{c|}{-94.91 }                                   & \multicolumn{1}{c|}{2.20}                   & \multicolumn{1}{c|}{-208.68}                   &           0.89     \\ \hline
+80                                      & Maximum dimensionality                      & Simultaneous                       & \multicolumn{1}{c|}{-765.38}                   &                    \multicolumn{1}{c|}{3.07}                   & \multicolumn{1}{c|}{-216.32}                   &           1.11  \\ \hline
+80                                      & Transdimensionality                           & Simultaneous                       & \multicolumn{1}{c|}{-223.51 }                   &                    \multicolumn{1}{c|}{3.00}                   & \multicolumn{1}{c|}{-215.72}                   &         1.09      \\ \hline
+80                                      & Maximum dimensionality                     & Individual            &              \multicolumn{1}{c|}{-756.92 }                   &             \multicolumn{1}{c|}{3.84}                   & \multicolumn{1}{c|}{-222.98}            & 1.47         \\ \hline
+80                                      & Transdimensionality                           & Individual                         & \multicolumn{1}{c|}{-132.12}                   &              \multicolumn{1}{c|}{3.03}                   & \multicolumn{1}{c|}{-216.17}            & 1.09         \\ \hline
+\end{tabular}
+\label{tab:posterior}
+\end{table}
